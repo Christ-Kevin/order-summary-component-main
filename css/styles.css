@@ -1,0 +1,158 @@
+ /*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* size */
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+@media screen and (max-height: 540px) and (orientation: landscape) {
+    body{
+        background-image: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+}
+@media screen and (min-height: 541px){
+    body{
+    background-image: url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
+
+
+
+body {
+    font-size: 1.6rem;
+    font-weight: 500;
+      /* space */
+    margin: 0 auto;
+   
+    padding: 6rem 0 6rem 0;
+    
+   
+    font-weight: 500;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    
+    
+  
+}
+figure.hero{
+    background-image: url(/images/illustration-hero.svg);
+}
+
+main {
+    
+    
+    padding-bottom: 0;
+    padding-top: 10rem;
+    width: 90%;
+    
+    margin: 0 auto;
+    vertical-align: middle;
+  
+ 
+    border-radius: 1.4rem;
+    
+    /* font and color */
+    
+   border: 1px solid black;
+/*flex*/
+    
+}
+
+article{
+    border: 1px dashed black;
+    
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+h1{
+    font-weight: 900;
+}
+
+h2{
+    font-weight: 700;
+}
+
+section{
+    background-color: hsl(225, 100%, 94%); /* pale blue */
+        border-radius: 1.4rem;
+}
+h3:first-of-type{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    color: hsl(255, 100%, 100%);
+    border-radius: 1.4rem;
+    background-color: hsl(245, 75%, 52%); /* bright blue */
+    
+}
+h3:last-of-type{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    
+    border-radius: 1.4rem;
+    background-color: hsl(255, 100%, 100%);
+}
+
+p, h3:last-of-type{
+     color: hsl(224, 23%, 55%); /* desaturated blue */
+}
+
+
