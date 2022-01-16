@@ -32,6 +32,200 @@ The designs were created to the following widths:
 - Weights: 500, 700, 900 */
 
 
+
+ *,
+ *:before,
+ *:after {
+    
+     box-sizing: inherit;
+ }
+
+ html {
+  
+     box-sizing: border-box;
+     
+     /* Typographie */
+     font-family: 'Red Hat Display', sans-serif;
+     /* set 1rem=10px */
+     font-size: 62.5%;       
+     
+ }
+
+
+/* ###################### Mobile first ################## */
+ body {
+     /* Typographie */
+     font-size: 1.6rem;
+     font-weight: 500;
+     
+     /* space */
+     margin: 0 auto;
+     padding: 6rem 0 6rem 0;
+     
+     /* size */
+     height: 100%;
+     
+     /* background */
+     background-image: url(/images/pattern-background-mobile.svg);
+     background-repeat: no-repeat;
+     background-size: auto;
+     /* pale blue */
+     background-color: hsl(225, 100%, 94%);
+     
+     /* flex */
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+
+ main {
+     /* space */
+     padding-bottom: 0;
+     margin: 0 auto;
+     
+     /* size */
+     width: 85%;
+     
+     /* border */
+     border-radius: 1.4rem;
+ }
+
+
+ main div img {
+     /* size */
+     height: auto;
+     max-height: 185px;
+     width: 100%;
+      
+     /* block */
+     display: block;
+     
+     /* background */
+     background-size: contain;
+     background-repeat: no-repeat;
+     
+     /* border */
+     border-top-left-radius: 1.4rem;
+     border-top-right-radius: 1.4rem;
+ }
+
+
+ article {
+     /* border */
+     border: 1px dashed black;
+     
+     /* space */
+     padding: 0 2rem 0 2rem;
+     
+     /* flex */
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     
+     /* background */
+     background-color: white;    
+ }
+
+
+ h1 {
+     /* Typographie */
+     font-weight: 900;
+ }
+
+
+ section p:first-of-type {
+     /* Typographie */
+     font-weight: 700;
+     color: black;
+     
+     /* space */
+     margin-bottom: 0;
+     margin-top: 0;
+     padding-top: 2rem;
+     
+ }
+
+
+ section h4 {
+     /* space */
+     margin-top: 3.1rem;
+ }
+
+
+ p:last-of-type {
+     /* space */
+     margin-top: 0;
+ }
+
+
+ section {
+     /* background */
+     /* very pale blue */
+     background-color: hsl(225, 100%, 98%);
+     
+     /* space and border */
+     border-radius: 1.4rem;
+     margin-bottom: 3rem;
+     
+     /* flex */
+     display: flex;
+ }
+
+
+ section div {
+     /* flex */
+     display: flex;
+     flex-direction: column;
+ }
+
+
+ section img {
+     padding: 2rem 2rem 2rem 2rem;
+ }
+
+
+ section a {
+     margin-left: auto;
+     margin-right: 2rem;
+ }
+
+
+ h3:first-of-type {
+     /* space */
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.8rem;
+     padding-bottom: 1.8rem;
+     
+     /* typographie */
+     color: hsl(255, 100%, 100%);
+     
+     /* border and background */
+     border-radius: 1.4rem;
+     /* bright blue */
+     background-color: hsl(245, 75%, 52%);
+ }
+
+
+ h3:last-of-type {
+     /* space */
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.8rem;
+     padding-bottom: 1.8rem;
+     
+     /* border and background */
+     border-radius: 1.4rem;
+     background-color: hsl(255, 100%, 100%);
+ }
+
+ p,
+ h3:last-of-type {
+     /* desaturated blue */
+     color: hsl(224, 23%, 55%);  
+ }
+
  .attribution {
      font-size: 11px;
      text-align: center;
@@ -41,186 +235,15 @@ The designs were created to the following widths:
      color: hsl(228, 45%, 44%);
  }
 
- *,
- *:before,
- *:after {
-     box-sizing: inherit;
- }
-
- html {
-     box-sizing: border-box;
-     /* size */
-     font-size: 62.5%;
-     font-family: 'Red Hat Display', sans-serif;
- }
 
 
-
-
- body {
-     font-size: 1.6rem;
-     font-weight: 500;
-     /* space */
-     margin: 0 auto;
-     height: 100%;
-     padding: 6rem 0 6rem 0;
-     font-weight: 500;
-     border: 1px solid black;
-
-     background-image: url(/images/pattern-background-mobile.svg);
-
-     background-repeat: no-repeat;
-     background-size: auto;
-     background-color: hsl(225, 100%, 94%);
-     /* pale blue */
-     display: flex;
-
-     justify-content: center;
-     flex-direction: column;
-
- }
-
-
-
-
-
- main {
-
-
-     padding-bottom: 0;
-
-     width: 90%;
-
-
-     margin: 0 auto;
-     vertical-align: middle;
-
-
-     border-radius: 1.4rem;
-
-     /* font and color */
-
-     border: 1px solid black;
-     /*flex*/
-
- }
-
-
-
- main div img {
-
-     height: auto;
-     max-height: 185px;
-
-
-     /*163px; /* auto? */
-     width: 100%;
-     overflow: auto;
-     display: block;
-     margin: 0 auto;
-
-     background-size: contain;
-     background-repeat: no-repeat;
-     border-top-left-radius: 1.4rem;
-     border-top-right-radius: 1.4rem;
- }
-
- article {
-
-     border: 1px dashed black;
-
-     padding: 0 2rem 0 2rem;
-     display: flex;
-     flex-direction: column;
-     text-align: center
- }
-
- h1 {
-     font-weight: 900;
- }
-
- section p:first-of-type {
-     font-weight: 700;
-     margin-bottom: 0;
-     margin-top: 0;
-     padding-top: 2rem;
-     color: black;
- }
-
- section h4 {
-     margin-top: 3.1rem;
- }
-
- p:last-of-type {
-     margin-top: 0;
- }
-
- section {
-     background-color: hsl(225, 100%, 98%);
-     /* very pale blue */
-     border-radius: 1.4rem;
-     display: flex;
-     margin-bottom: 3rem;
- }
-
-
-
- section div {
-     display: flex;
-     flex-direction: column;
-
- }
-
- section img {
-     padding: 2rem 2rem 2rem 2rem;
- }
-
- section a {
-     margin-left: auto;
-     margin-right: 2rem;
- }
-
- h3:first-of-type {
-     margin-top: 0;
-     margin-bottom: 0;
-     padding-top: 1.8rem;
-     padding-bottom: 1.8rem;
-     color: hsl(255, 100%, 100%);
-     border-radius: 1.4rem;
-     background-color: hsl(245, 75%, 52%);
-     /* bright blue */
-
- }
-
- h3:last-of-type {
-     margin-top: 0;
-     margin-bottom: 0;
-     padding-top: 1.8rem;
-     padding-bottom: 1.8rem;
-
-     border-radius: 1.4rem;
-     background-color: hsl(255, 100%, 100%);
- }
-
- p,
- h3:last-of-type {
-     color: hsl(224, 23%, 55%);
-     /* desaturated blue */
- }
-
-
-
+/* ################ Desktop Design ################ */
  @media screen and (min-height: 541px) {
      body {
-
          background-image: url(/images/pattern-background-desktop.svg);
-
          background-repeat: no-repeat;
          background-size: auto;
-         background-color: hsl(225, 100%, 94%);
          /* pale blue */
-
-
-
+         background-color: hsl(225, 100%, 94%);
      }
  }
