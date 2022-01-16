@@ -219,12 +219,18 @@
 
 
  /* ################ Desktop Design ################ */
- @media screen and (min-height: 541px) {
+ @media screen and (min-width: 541px) {
      body {
          background-image: url(/images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
          /* pale blue */
          background-color: hsl(225, 100%, 94%);
+     }
+
+     main {
+         width: 40%;
+         padding-top: 10rem;
+         padding-bottom: 10rem;
      }
  }
