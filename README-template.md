@@ -54,7 +54,8 @@ The users should be able to:
 
 I'm really confident and happy cause my DOM looks perfect. No errors, no warnings
 ```html
-<div>
+        <h1>proud of this html</h1>
+        <div>
             <img src="images/illustration-hero.svg" alt="hero">
         </div>
 ```
