@@ -36,7 +36,7 @@
      /* background */
      background-image: url(/images/pattern-background-mobile.svg);
      background-repeat: no-repeat;
-     background-size: auto;
+     background-size: contain;
      /* flex */
      display: flex;
      justify-content: center;
