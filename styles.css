@@ -1,0 +1,275 @@
+ *,
+ *:before,
+ *:after {
+
+     box-sizing: inherit;
+ }
+
+ html {
+
+     box-sizing: border-box;
+
+     /* Typographie */
+     font-family: 'Red Hat Display', sans-serif;
+     /* set 1rem=10px */
+     font-size: 62.5%;
+
+ }
+
+
+ /* ###################### Mobile first ################## */
+ body {
+     /* Typographie */
+     font-size: 1.6rem;
+     font-weight: 500;
+
+     /* space */
+     margin: 0 auto;
+     padding: 6rem 0 6rem 0;
+
+     /* size */
+     height: 100%;
+
+
+     /* pale blue */
+     background-color: hsl(225, 100%, 94%);
+     /* background */
+     background-image: url(images/pattern-background-mobile.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     /* flex */
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+
+ main {
+     /* space */
+     padding-bottom: 0;
+     margin: 0 auto;
+
+     /* size */
+     width: 85%;
+
+     /* border */
+     border-radius: 1.4rem;
+ }
+
+
+ main div img {
+     /* size */
+     height: auto;
+     max-height: 185px;
+     width: 100%;
+
+     /* block */
+     display: block;
+
+     /* background */
+     background-size: contain;
+     background-repeat: no-repeat;
+
+     /* border */
+     border-top-left-radius: 1.4rem;
+     border-top-right-radius: 1.4rem;
+ }
+
+
+ article {
+     /* space */
+     padding: 0 2rem 0 2rem;
+
+     /* flex */
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+
+     /* background */
+     background-color: white;
+ }
+
+
+ h1 {
+     /* Typographie */
+     font-weight: 900;
+ }
+
+
+ section p:first-of-type {
+     /* Typographie */
+     font-weight: 700;
+     color: black;
+
+     /* space */
+     margin-bottom: 0;
+     margin-top: 0;
+     padding-top: 2rem;
+
+ }
+
+
+ section h4 {
+     /* space */
+     margin-top: 3.1rem;
+ }
+
+
+ p:last-of-type {
+     /* space */
+     margin-top: 0;
+ }
+
+
+ section {
+     /* background */
+     /* very pale blue */
+     background-color: hsl(225, 100%, 98%);
+
+     /* space and border */
+     border-radius: 1.4rem;
+     margin-bottom: 3rem;
+
+     /* flex */
+     display: flex;
+ }
+
+
+ section div {
+     /* flex */
+     display: flex;
+     flex-direction: column;
+ }
+
+
+ section img {
+     padding: 2rem 2rem 2rem 2rem;
+ }
+
+
+ section a {
+     color: hsl(245, 75%, 52%);
+     margin-left: auto;
+     margin-right: 2rem;
+ }
+
+
+ h3:first-of-type {
+     /* space */
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.8rem;
+     padding-bottom: 1.8rem;
+
+     /* typographie */
+     color: hsl(255, 100%, 100%);
+
+     /* border and background */
+     border-radius: 1.4rem;
+     /* bright blue */
+     background-color: hsl(245, 75%, 52%);
+ }
+
+
+ h3:last-of-type {
+     /* space */
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.8rem;
+     padding-bottom: 1.8rem;
+
+     /* border and background */
+     border-radius: 1.4rem;
+     background-color: hsl(255, 100%, 100%);
+ }
+
+
+ /* ################# Hover states ################ */
+ section a:hover {
+     text-decoration: none;
+ }
+
+ h3:first-of-type:hover {
+     background-color: hsl(245, 75%, 60%);
+ }
+
+ h3:last-of-type:hover {
+     /* very pale blue */
+     background-color: hsl(225, 100%, 97%);
+     color: black;
+ }
+
+
+ p,
+ h3:last-of-type {
+     /* desaturated blue */
+     color: hsl(224, 23%, 55%);
+ }
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+
+
+ /* ################ Intermediaire Design ################ */
+ @media screen and (min-width: 540px) and (max-width: 768px) {
+     body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
+         background-image: url(images/pattern-background-desktop.svg);
+         background-repeat: no-repeat;
+         background-size: auto;
+     }
+
+     main {
+         width: 57%;
+         padding-top: 15rem;
+         padding-bottom: 15rem;
+     }
+ }
+
+
+
+
+ /* ################ Intermediaire Design ################ */
+ @media screen and (min-width: 769px) and (max-width: 1000px) {
+     body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
+         background-image: url(images/pattern-background-desktop.svg);
+         background-repeat: no-repeat;
+         background-size: auto;
+     }
+
+     main {
+         width: 39%;
+         padding-top: 15rem;
+         padding-bottom: 15rem;
+     }
+ }
+
+
+
+
+ /* ################ Desktop Design ################ */
+ @media screen and (min-width: 1001px) {
+     body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
+         background-image: url(images/pattern-background-desktop.svg);
+         background-repeat: no-repeat;
+         background-size: auto;
+     }
+
+     main {
+         width: 31%;
+         padding-top: 15rem;
+         padding-bottom: 15rem;
+     }
+ }
