@@ -30,12 +30,13 @@
      /* size */
      height: 100%;
 
+
+     /* pale blue */
+     background-color: hsl(225, 100%, 94%);
      /* background */
      background-image: url(/images/pattern-background-mobile.svg);
      background-repeat: no-repeat;
      background-size: auto;
-     /* pale blue */
-     background-color: hsl(225, 100%, 94%);
      /* flex */
      display: flex;
      justify-content: center;
@@ -219,11 +220,11 @@
  /* ################ Intermediaire Design ################ */
  @media screen and (min-width: 540px) and (max-width: 768px) {
      body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
          background-image: url(/images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
-         /* pale blue */
-         background-color: hsl(225, 100%, 94%);
      }
 
      main {
@@ -239,11 +240,11 @@
  /* ################ Intermediaire Design ################ */
  @media screen and (min-width: 769px) and (max-width: 1000px) {
      body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
          background-image: url(/images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
-         /* pale blue */
-         background-color: hsl(225, 100%, 94%);
      }
 
      main {
@@ -259,11 +260,11 @@
  /* ################ Desktop Design ################ */
  @media screen and (min-width: 1001px) {
      body {
+         /* pale blue */
+         background-color: hsl(225, 100%, 94%);
          background-image: url(/images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
-         /* pale blue */
-         background-color: hsl(225, 100%, 94%);
      }
 
      main {
