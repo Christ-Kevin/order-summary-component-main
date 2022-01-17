@@ -180,6 +180,7 @@
      /* border and background */
      border-radius: 1.4rem;
      background-color: hsl(255, 100%, 100%);
+     color: black;
  }
 
 
@@ -215,7 +216,7 @@
 
 
 
-/* ################ Intermediaire Design ################ */
+ /* ################ Intermediaire Design ################ */
  @media screen and (min-width: 540px) and (max-width: 768px) {
      body {
          background-image: url(/images/pattern-background-desktop.svg);
@@ -230,12 +231,12 @@
          padding-top: 15rem;
          padding-bottom: 15rem;
      }
-}
+ }
 
 
 
 
-/* ################ Intermediaire Design ################ */
+ /* ################ Intermediaire Design ################ */
  @media screen and (min-width: 769px) and (max-width: 1000px) {
      body {
          background-image: url(/images/pattern-background-desktop.svg);
@@ -250,7 +251,7 @@
          padding-top: 15rem;
          padding-bottom: 15rem;
      }
-}
+ }
 
 
 
