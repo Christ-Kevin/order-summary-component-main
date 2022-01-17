@@ -34,7 +34,7 @@
      /* pale blue */
      background-color: hsl(225, 100%, 94%);
      /* background */
-     background-image: url(./images/pattern-background-mobile.svg);
+     background-image: url(images/pattern-background-mobile.svg);
      background-repeat: no-repeat;
      background-size: contain;
      /* flex */
@@ -222,7 +222,7 @@
      body {
          /* pale blue */
          background-color: hsl(225, 100%, 94%);
-         background-image: url(./images/pattern-background-desktop.svg);
+         background-image: url(images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
      }
@@ -242,7 +242,7 @@
      body {
          /* pale blue */
          background-color: hsl(225, 100%, 94%);
-         background-image: url(./images/pattern-background-desktop.svg);
+         background-image: url(images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
      }
@@ -262,7 +262,7 @@
      body {
          /* pale blue */
          background-color: hsl(225, 100%, 94%);
-         background-image: url(./images/pattern-background-desktop.svg);
+         background-image: url(images/pattern-background-desktop.svg);
          background-repeat: no-repeat;
          background-size: auto;
      }
