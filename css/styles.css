@@ -181,7 +181,6 @@
      /* border and background */
      border-radius: 1.4rem;
      background-color: hsl(255, 100%, 100%);
-     color: black;
  }
 
 
@@ -197,6 +196,7 @@
  h3:last-of-type:hover {
      /* very pale blue */
      background-color: hsl(225, 100%, 97%);
+     color: black;
  }
 
 
